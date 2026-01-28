@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.searchbar_container {
+    @apply flex gap-3 mb-5
+}
+
+.searchbar_container > input {
+    @apply flex-1 p-4 rounded-lg border border-solid border-[rgb(220,220,220)]
+}
+
+.searchbar_container > button {
+    @apply w-20 rounded-sm border-none bg-[rgb(37,147,255)] text-white cursor-pointer
+}
