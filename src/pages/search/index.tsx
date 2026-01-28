@@ -7,10 +7,6 @@ export default function SearchPage() {
 
     return (
         <div>
-            <h1 className={'text-5xl'}>도서 검색 페이지</h1>
-            <div>
-                <p>검색 : {router.query.title}</p>
-            </div>
         </div>
     )
 }

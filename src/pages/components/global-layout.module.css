@@ -1,0 +1,22 @@
+@reference "tailwindcss";
+
+.container {
+    @apply bg-white mx-auto max-w-150 min-h-screen shadow
+}
+
+/*font-size, line-height 포함*/
+.container > header {
+    @apply h-16 font-bold text-xl leading-16
+}
+
+.container > header > a {
+    @apply text-black decoration-0
+}
+
+.container > main {
+    @apply pt-3
+}
+
+.container > footer {
+    @apply text-gray-500
+}

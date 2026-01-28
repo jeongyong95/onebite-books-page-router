@@ -5,7 +5,7 @@ import SearchbarLayout from "@/pages/components/searchbar-layout";
 export default function HomePage() {
     return (
         <div>
-            <h1 className={`${style.title} text-5xl`}>인덱스 페이지입니다.</h1>
+            <h1 className={`${style.title} text-2xl`}>인덱스 페이지입니다.</h1>
         </div>
     )
 }
