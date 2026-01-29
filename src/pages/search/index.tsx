@@ -3,8 +3,7 @@ import SearchbarLayout from "@/pages/components/searchbar-layout";
 import {ReactNode} from "react";
 
 export default function SearchPage() {
-    const router = useRouter()
-
+    useRouter();
     return (
         <div>
         </div>

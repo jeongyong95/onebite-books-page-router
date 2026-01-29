@@ -1,5 +1,5 @@
 import style from "./searchbar-layout.module.css"
-import {ChangeEvent, ReactNode, useEffect, useRef, useState} from "react";
+import {KeyboardEvent, ChangeEvent, ReactNode, useEffect, useRef, useState} from "react";
 import {useRouter} from "next/router";
 
 export default function SearchbarLayout(
@@ -36,7 +36,7 @@ export default function SearchbarLayout(
         router.push(`/search?keyword=${search}`)
     }
 
-    const searchUsingEnter = (e: KeyboardEvent) => {
+    const searchUsingEnter = (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.key === "Enter") {
             searchBooks()
         }
